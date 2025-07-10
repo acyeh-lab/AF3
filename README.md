@@ -10,3 +10,7 @@
 export OUTPUT_DIR="YOUR OUTPUT FOLDER DIRECTORY HERE"
 export INPUT_DIR="YOUR INPUT FOLDER DIRECTORY HERE"
 ```
+- Now, you're ready to submit the job as follows in the directory of "af3run.sh" shell script:
+```
+sbatch af3run.sh
+```
