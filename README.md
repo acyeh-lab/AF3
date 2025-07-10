@@ -1,4 +1,6 @@
-## This is a quick tutorial on how to set up default AF3 on the FHCC computing cluster.  Thanks to Phil Bradley for guidance!
+## Using AF3 on the Computing Cluster
+
+This is a quick tutorial on how to set up default AF3 on the FHCC computing cluster.  Thanks to Phil Bradley for guidance!
 
 - In log-in computing node, create an "input" and "output" directory
 - In the "input" directory, upload the "test1.json", which contains 3 protein chains as a default (this can be TCR/MHCII/peptide, for example)
@@ -14,3 +16,4 @@ export INPUT_DIR="YOUR INPUT FOLDER DIRECTORY HERE"
 ```
 sbatch af3run.sh
 ```
+- Check the output slurm file for error messages; otherwise the final output should be accessible in the "OUTPUT_DIR" that was specified above.
